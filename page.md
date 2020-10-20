@@ -34,7 +34,7 @@
 
 使用不同的href屬性來區分使用同一個唯一id的頁面：
 
-## 實例
+### 實例
 
     <div data-role="page" id="pageone">
         <div data-role="main" class="ui-content">
@@ -61,15 +61,15 @@
 ### 實例
 
     <div data-role="page" id="pageone">
-    <div data-role="main" class="ui-content">
-        <a href="#pagetwo">跳轉到第二個頁面</a>
-    </div>
+        <div data-role="main" class="ui-content">
+            <a href="#pagetwo">跳轉到第二個頁面</a>
+        </div>
     </div>
 
     <div data-role="page" data-dialog="true" id="pagetwo">
-    <div data-role="main" class="ui-content">
-        <a href="#pageone">跳轉到第一個頁面</a>
-    </div>
+        <div data-role="main" class="ui-content">
+            <a href="#pageone">跳轉到第一個頁面</a>
+        </div>
     </div>
 
 方法二:在連結中加上　data-rel="dialog"　讓用戶點擊連結時彈出對話框:
@@ -77,13 +77,13 @@
 ### 實例
 
     <div data-role="page" id="pageone">
-    <div data-role="main" class="ui-content">
-        <a href="#pagetwo" data-rel="dialog">跳轉到第二個頁面</a>
-    </div>
+        <div data-role="main" class="ui-content">
+            <a href="#pagetwo" data-rel="dialog">跳轉到第二個頁面</a>
+        </div>
     </div>
 
     <div data-role="page" id="pagetwo">
-    <div data-role="main" class="ui-content">
-        <a href="#pageone">跳轉到第一個頁面</a>
-    </div>
+        <div data-role="main" class="ui-content">
+            <a href="#pageone">跳轉到第一個頁面</a>
+        </div>
     </div>
