@@ -24,7 +24,9 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- 連結 jQuery Mobile -->
-    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="themes/custheme.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
@@ -43,7 +45,7 @@
             <h1>美食從這裡開始...</h1>
             <p>這裡介紹高雄最好吃最有人氣的特色美食</p>
             
-            <a href="#page01" data-transition="slide">傳統小吃</a>
+            <a href="#page01" data-transition="slide" data-role="button" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">傳統小吃</a>
 
             <a href="#page02">中式桌菜</a>
 
@@ -92,11 +94,11 @@
         <div role="main" class="ui-content">
             <h1>中式桌菜</h1>
             <p>家庭聚餐,招待親友,節日歡慶,推薦以下這些地方:</p>
-            <ul>
+            <ol data-role="listview" data-inset="true" >
                 <li>餐廳一</li>
                 <li>餐廳二</li>
                 <li>餐廳三</li>
-            </ul>
+            </ol>
             <a href="#page00">回到 主頁面</a>
 
 
